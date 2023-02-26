@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-import sphinx
+import sphinx #to generate html from documentation
 import re #regex to easily detect required format of string
 import os
 from glob import iglob as glob #or os.walk
